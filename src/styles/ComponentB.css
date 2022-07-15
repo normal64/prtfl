@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+*, *::before, *::after {
+  font-family: 'Patrick Hand SC', cursive !important;
+  color: white !important;
+}
+
+h4 {
+  color: #dd2d1b !important;
+}
+/*# sourceMappingURL=ComponentB.css.map */

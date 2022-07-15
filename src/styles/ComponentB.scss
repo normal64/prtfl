@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+/* globals */
+*
+:not(.iconUI){
+     font-family: 'Patrick Hand SC', cursive !important;
+     color: white !important;
+     
+}
+html{
+    scroll-behavior: smooth;
+}
+.header-intro{
+    color: #dd2d1b !important;
+    
+}
+#ComponentB{
+    margin-top: 10%;
+    padding-top: 10%;
+}

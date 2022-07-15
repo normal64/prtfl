@@ -1,0 +1,33 @@
+#ComponentE{
+    /* margin-top: 35%; */
+    margin-top: 55em;
+    padding-top: 4%;
+}
+.preview {
+    
+    width: 200% !important;
+    height: 40em !important;
+    -webkit-transform:scale(.25) !important;
+    -ms-transform:scale(.5) !important;
+    transform:scale(.5) !important;
+    -webkit-transform-origin:0 0 !important; 
+    -ms-transform-origin:0 0 !important; 
+    transform-origin:0 0 !important; 
+    border:4px solid blue !important;
+    margin:0 0 -300px 0 !important;
+}
+.project-description{
+    background:#c94d4d !important;
+    width: 110% !important;
+    position: absolute !important;
+    right: 2em !important;
+}
+.tech-stack{
+    color: white !important;
+    margin-top: 10em !important;
+}
+.made-by{
+    padding-top: 5em;
+    padding-left: 50%;
+    opacity: 0.4;
+}

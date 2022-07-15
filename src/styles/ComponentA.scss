@@ -1,0 +1,13 @@
+.component-a{
+    /* // margin-top: 0.1em  !important; */
+    
+}
+.menu-row{
+    position: fixed !important;
+    z-index: 999 !important;
+}
+.hide{
+    /* display: none !important; */
+    opacity: 0 !important;
+    transition: opacity 1s ease-out !important;
+}
