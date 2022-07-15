@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prtfl/static/css/main.3d1073fd.css",
+    "main.js": "/prtfl/static/js/main.b89eed19.js",
+    "static/media/logo.png": "/prtfl/static/media/logo.308945028d1f65690bfb.png",
+    "static/media/Denis.jpg": "/prtfl/static/media/Denis.9342bc153f49da7183a6.jpg",
+    "index.html": "/prtfl/index.html",
+    "main.3d1073fd.css.map": "/prtfl/static/css/main.3d1073fd.css.map",
+    "main.b89eed19.js.map": "/prtfl/static/js/main.b89eed19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d1073fd.css",
+    "static/js/main.b89eed19.js"
+  ]
+}
