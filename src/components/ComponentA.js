@@ -55,9 +55,11 @@ const menuSections = ["Intro","About me","Work experience","Coding?","Contact","
 
           <Grid.Column 
         //   width={4} 
-        columns='equal'
+        // columns='equal'
+        mobile={16} tablet={8} computer={4}
           floated="right">
-          <Menu color="black" inverted fluid widths={6}>
+          <Menu color="black" 
+          inverted fluid widths={6}>
           <Menu.Item
           name={menuSections[0]}
            active={state.activeItem === menuSections[0]}
