@@ -19,6 +19,7 @@ const ComponentC = () => {
       <Grid.Row columns={4} centered>
         <Grid.Column
           width={4}
+          className="about-me-text-part"
           // floated='left'
         >
           <p>
