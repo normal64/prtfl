@@ -29,14 +29,15 @@
   }
 /* globals */
 *
-:not(.iconUI):not(.header-name):not(.header-intro){
-     font-family: 'Patrick Hand SC', cursive !important;
+:not(.iconUI):not(.header-name):not(.header-intro):not(.job-description):not(.offer-link):not(.job-desc-long):not(.vertical-link){
      color: white !important;
-     
+     font-family: 'Patrick Hand SC', cursive !important;
 }
 html{
     scroll-behavior: smooth;
+    
 }
+
 .header-intro{
     font-family: 'Patrick Hand SC', cursive !important;
     color: #dd2d1b !important;
@@ -44,8 +45,6 @@ html{
 .header-description{
     opacity: 0.7;
 }
-
-
 
 #ComponentB{
     margin-top: 10%;

@@ -29,7 +29,7 @@ const ComponentD = () => {
             <Header as="h5" className="job-description">
               August 2021 - Present
             </Header>
-            <p>
+            <p className="job-desc-long">
               Responsible for evaluating online social media, web page content
               and advertising content in conjunction with client policy
             </p>
@@ -45,7 +45,7 @@ const ComponentD = () => {
             <Header as="h5" className="job-description">
               May 2014 - August 2021
             </Header>
-            <p>
+            <p className="job-desc-long">
               Responsible for evaluating online social media, web page content
               and advertising content in conjunction with client policy
             </p>
@@ -61,7 +61,7 @@ const ComponentD = () => {
             <Header as="h5" className="job-description">
               October 2013 - April 2014
             </Header>
-            <p>
+            <p className="job-desc-long">
               Responsible for evaluating online social media, web page content
               and advertising content in conjunction with client policy
             </p>
