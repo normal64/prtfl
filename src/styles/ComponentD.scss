@@ -1,9 +1,12 @@
 #ComponentD {
-  /* margin-top: 35%; */
-  margin-top: 48em;
+  
+  // margin-top: 48em;
+  min-height: 100vh;
+
   padding-top: 12%;
 }
 #ComponentD{
+  
   *{
     font-family: 'Patrick Hand SC', cursive !important;
   }
@@ -50,6 +53,7 @@ h2{
     .offer{
         /* font-size: initial !important; */
         word-break: break-word;
+        font-size: 30px !important;
     }
     .item{
         padding: 1.5em 0 0 0 !important;
