@@ -48,7 +48,7 @@ const menuSections = ["Intro","About me","Work experience","Coding?","Contact","
         // stackable
         >
             <Grid.Row className="menu-row"> 
-          <Grid.Column width={2}>
+          <Grid.Column width={2} className="logo">
             <Image src={image} size='tiny' />
         
           </Grid.Column>

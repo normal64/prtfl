@@ -1,7 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+.header-name{
+    font-family: 'Patrick Hand SC', cursive !important;
+    font-size: 70px !important;
+    animation: blink 4s linear infinite;
+    font-weight: bold !important;
+    /* color: rgb(255, 174, 160) !important; */
+}
+@keyframes blink {
+    0% {
+      opacity: 0;
+      
+      color: #c6145836 ;
+    }
+    25%{
+        opacity: .25;
+        color: #c614587e ;
+    }
+    50% {
+      opacity: .5;
+      color: #c61458c9 ;
+    }
+    100% {
+        color: #C61458 ;
+        
+    opacity: 1;
+    }
+  }
 /* globals */
 *
-:not(.iconUI){
+:not(.iconUI):not(.header-name):not(.header-intro){
      font-family: 'Patrick Hand SC', cursive !important;
      color: white !important;
      
@@ -10,9 +38,15 @@ html{
     scroll-behavior: smooth;
 }
 .header-intro{
+    font-family: 'Patrick Hand SC', cursive !important;
     color: #dd2d1b !important;
-    
 }
+.header-description{
+    opacity: 0.7;
+}
+
+
+
 #ComponentB{
     margin-top: 10%;
     padding-top: 10%;

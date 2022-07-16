@@ -33,3 +33,10 @@ transition:  0.1s ease-out !important;
 .list-content{
 height: 3em !important; 
 }
+@media only screen and (max-width: 768px){
+    .vertical-menu{
+        display: none;
+    }
+    
+	
+}

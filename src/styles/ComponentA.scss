@@ -11,3 +11,11 @@
     opacity: 0 !important;
     transition: opacity 1s ease-out !important;
 }
+
+@media only screen and (max-width: 768px){
+    .logo{
+        display: none !important;
+    }
+    
+	/*Big smartphones [426px -> 600px]*/
+}
