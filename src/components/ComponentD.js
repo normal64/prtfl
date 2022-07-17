@@ -40,7 +40,7 @@ const ComponentD = () => {
           <>
             <>
             <Header as="h2" className="job-description">
-              Interpreter <a href="https://voith.com/corp-en/index.html">@VoithHydro</a>
+              Interpreter <a className="job-link" href="https://voith.com/corp-en/index.html">@VoithHydro</a>
             </Header>
             <Header as="h5" className="job-description">
               May 2014 - August 2021
@@ -56,7 +56,7 @@ const ComponentD = () => {
         return (
           <>
             <Header as="h2" className="job-description">
-              Interpreter <a href="https://severstal.com/global/">@Severstal</a>
+              Interpreter <a className="job-link" href="https://severstal.com/global/">@Severstal</a>
             </Header>
             <Header as="h5" className="job-description">
               October 2013 - April 2014

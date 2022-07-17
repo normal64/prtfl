@@ -66,6 +66,9 @@ const ComponentC = () => {
 
         <Grid.Column columns={4}>
           <Image src={denis} size="medium" className="my-photo" />
+          <div className='empty'>
+            
+          </div>
         </Grid.Column>
       </Grid.Row>
     </Grid>

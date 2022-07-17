@@ -6,9 +6,15 @@
 
 }
 .my-photo{
-    border: 3px solid white;
-    
+    // border: 3px solid white;
+    border-radius: 80px 10px 50px 40px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: blur(3px) !important;
 }
+.my-photo:hover{
+filter: blur(0) !important;
+}
+
 .about-me-text-part{
     font-size: 19px;
     min-width: 13em !important;
