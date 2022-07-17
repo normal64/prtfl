@@ -91,8 +91,10 @@ const menuSections = ["Intro","About me","Work experience","Coding?","Contact","
         onClick={handleItemClick}
         />
         <Menu.Item
+          href='https://drive.google.com/file/d/1SQpdjCxU5CGgmGTYI7WRW_EtNejdvde-/view?usp=sharing' target='_blank'
           name={menuSections[5]}
           active={state.activeItem === menuSections[5]}
+
         onClick={handleItemClick}
         />
         </Menu>
