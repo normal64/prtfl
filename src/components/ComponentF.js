@@ -6,7 +6,7 @@ import "../styles/ComponentF.scss";
 const ComponentF = () => {
   return (
     <Grid centered columns={2} id="ComponentF">
-      <Grid.Row centered columns={3}>
+      <Grid.Row centered columns={2}>
         <Grid.Column
         // width={4}
         >
@@ -24,12 +24,17 @@ const ComponentF = () => {
           </Header>
           <p>
             I’m open for new opportunities, Whether you have a question or just
-            want to say hi, I’ll try my best to get back to you! If you are
+            want to say hi, contact me so i can get back to you! <br />
+            If you are
             looking for a good employee pick then you are in the right place
           </p>
-          <a className="offer-link" href="mailto: 1234@example.com">
+          <a className="offer-link" href="mailto: normal64@mail.ru">
             {" "}
             Send Mail
+          </a>
+          <a className="offer-link" href="mailto: normal6488@gmail.com">
+            {" "}
+            Send GMail
           </a>
           <p className="made-by">by Denis Poplavskii</p>
         </Grid.Column>

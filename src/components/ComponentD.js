@@ -17,7 +17,9 @@ const ComponentD = () => {
             here might be your wonderful offer
           </Header>
           <br />
-          <a className="offer-link" href = "mailto: 1234@example.com"> Send Mail</a>
+          <a className="offer-link" href = "mailto: normal64@mail.ru"> Send Mail</a>
+          <br />
+          <a className="offer-link" href = "mailto:normal6488@gmail.com"> Send GMail</a>
           </>
         );
       case "Majorel":

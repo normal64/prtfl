@@ -1,14 +1,14 @@
 import React from "react";
 import { Grid, GridRow, Header, Image, Icon, List } from "semantic-ui-react";
 import denis from "../img/Denis.jpg";
-import "../styles/ComponentC.scss"
+import "../styles/ComponentC.scss";
 
 const ComponentC = () => {
   return (
     <Grid
-    id="ComponentC"
-    //  columns={3}
-    //  centered
+      id="ComponentC"
+      //  columns={3}
+      //  centered
     >
       <Grid.Row columns={2} centered>
         <Grid.Column floated="left">
@@ -23,40 +23,53 @@ const ComponentC = () => {
           // floated='left'
         >
           <p>
-          Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, a huge corporation, and a
-            student-led design studio. My main focus these days is building
-            accessible, inclusive product
+            Fast-forward to today, and I’ve been working in coorporation,
+            factories, offices and this great experience builded up my person.
           </p>
           <br />
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, a huge corporation, and a
-            student-led design studio. My main focus these days is building
-            accessible, inclusive products and digital experiences at
-            Upstatement for a variety of clients.
+            Possesing an ultimate "can do" attitude and upbeat personality helps me to grow and my motivation is natural which is essential thing.
           </p>
           <p>
-          Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, a huge corporation
+            Be highly competent, responsible is my goal and i believe that add to office or company morale.
           </p>
-          Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, a huge corporation, 
+          Tend to take initiative beyond expected parameters of the job. 
+          Organized and well disciplined whose i do consider my best pros.
+          <br />
+        
           <Grid.Row columns={6} centered>
             <Grid.Column>
               <List horizontal>
                 <List.Item as="a">
                   <List.Content>
-                  <List.Header><Icon className="iconUI"  color='red' name="angle right" />HTML</List.Header>
-                  <List.Header><Icon className="iconUI"  color='red' name="angle right" />CSS</List.Header>
-                  <List.Header><Icon className="iconUI"  color='red' name="angle right" />JavaScript</List.Header>
+                    <List.Header>
+                      <Icon className="iconUI" color="red" name="angle right" />
+                      HTML
+                    </List.Header>
+                    <List.Header>
+                      <Icon className="iconUI" color="red" name="angle right" />
+                      CSS
+                    </List.Header>
+                    <List.Header>
+                      <Icon className="iconUI" color="red" name="angle right" />
+                      JavaScript
+                    </List.Header>
                   </List.Content>
                 </List.Item>
                 <List.Item as="a">
                   <List.Content>
-                  <List.Header ><Icon className="iconUI"  color='red' name="angle right" />React</List.Header>
-                  <List.Header><Icon className="iconUI" color='red'  name="angle right" />React-Redux</List.Header>
-                  <List.Header><Icon className="iconUI" color='red'  name="angle right" />API</List.Header>
+                    <List.Header>
+                      <Icon className="iconUI" color="red" name="angle right" />
+                      React
+                    </List.Header>
+                    <List.Header>
+                      <Icon className="iconUI" color="red" name="angle right" />
+                      React-Redux
+                    </List.Header>
+                    <List.Header>
+                      <Icon className="iconUI" color="red" name="angle right" />
+                      API
+                    </List.Header>
                   </List.Content>
                 </List.Item>
               </List>
@@ -66,9 +79,7 @@ const ComponentC = () => {
 
         <Grid.Column columns={4}>
           <Image src={denis} size="medium" className="my-photo" />
-          <div className='empty'>
-            
-          </div>
+          <div className="empty"></div>
         </Grid.Column>
       </Grid.Row>
     </Grid>
