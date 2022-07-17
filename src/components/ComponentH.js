@@ -7,8 +7,8 @@ const ComponentH = () => {
         
     <div className="vertical-send-email">
         
-            <a  className="vertical-link"  href="mailto:normal64@mail.ru">Email1</a>
-            <a  className="vertical-link"  href="mailto:normal64@mail.ru">EMail2</a>
+            <a  className="vertical-link"  href="mailto:normal64@mail.ru">Email one</a>
+            <a  className="vertical-link"  href="normal6488@gmail.com">EMail two</a>
     
     </div>
         
