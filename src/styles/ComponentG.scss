@@ -1,38 +1,38 @@
-
-.vertical-menu::after{
-    content: "";
-    display: block;
-    width: 1px;
-    height: 220px;
-    margin: 0px auto;
-    background-color: rgba(220, 44, 27, 1);
-    background-image: linear-gradient(0deg, rgba(220, 44, 27, 1) 0%, rgba(255, 255, 255, 1) 100%);
+.vertical-menu::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 220px;
+  margin: 0px auto;
+  background-color: rgba(220, 44, 27, 1);
+  background-image: linear-gradient(
+    0deg,
+    rgba(220, 44, 27, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
-.vertical-menu{
-    position:  fixed;
-    left: 1em;
-    bottom: 0;
+.vertical-menu {
+  position: fixed;
+  left: 1em;
+  bottom: 0;
 }
-.animated{
-    
-    margin-top:    0.4em !important;
-  
+.animated {
+  margin-top: 0.4em !important;
 }
-.animated:hover{
-color: rgb(255, 160, 144);
-margin-top: 0.2em !important;
-transition:  0.1s ease-out !important;
+.animated:hover {
+  color: rgb(255, 160, 144);
+  margin-top: 0.2em !important;
+  transition: 0.1s ease-out !important;
 }
-.list-content{
-height: 3em !important; 
+.list-content {
+  height: 3em !important;
 }
-@media only screen and (max-width: 768px){
-    .vertical-menu{
-        display: none;
-    }
-    .menu{
-        padding: 0 !important;
-    }
-	
+@media only screen and (max-width: 768px) {
+  .vertical-menu {
+    display: none;
+  }
+  .menu {
+    padding: 0 !important;
+  }
 }

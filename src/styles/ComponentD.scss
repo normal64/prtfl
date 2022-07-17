@@ -1,22 +1,18 @@
 #ComponentD {
-  
-  // margin-top: 48em;
   min-height: 100vh;
 
   padding-top: 12%;
 }
-#ComponentD{
-  
-  *{
-    font-family: 'Patrick Hand SC', cursive !important;
+#ComponentD {
+  * {
+    font-family: "Patrick Hand SC", cursive !important;
   }
-  
 }
-h2{
+h2 {
   color: black !important;
 }
 .job-description {
-    color: black !important;
+  color: black !important;
   a {
     color: rgb(253, 123, 123) !important;
   }
@@ -24,7 +20,6 @@ h2{
     color: black !important;
     font-size: 18px !important;
   }
-  
 }
 .offer-link {
   font-size: 26px !important;
@@ -50,18 +45,15 @@ h2{
   display: inline-block;
   font-size: 40px !important;
 }
-@media only screen and (max-width: 768px){
-    .offer{
-        /* font-size: initial !important; */
-        word-break: break-word;
-        font-size: 30px !important;
-    }
-    .item{
-        padding: 1.5em 0 0 0 !important;
-        word-break: break-word;
-    }
-    
-	
+@media only screen and (max-width: 768px) {
+  .offer {
+    word-break: break-word;
+    font-size: 30px !important;
+  }
+  .item {
+    padding: 1.5em 0 0 0 !important;
+    word-break: break-word;
+  }
 }
 @keyframes textclip {
   to {

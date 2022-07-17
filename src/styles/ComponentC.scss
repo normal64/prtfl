@@ -1,21 +1,17 @@
-#ComponentC{
-    /* margin-top: 35%; */
-    // margin-top: 48em;
-    padding-top: 8%;
-    min-height: 100vh;
-
+#ComponentC {
+  padding-top: 8%;
+  min-height: 100vh;
 }
-.my-photo{
-    // border: 3px solid white;
-    border-radius: 80px 10px 50px 40px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: blur(3px) !important;
+.my-photo {
+  border-radius: 80px 10px 50px 40px;
+  -webkit-filter: grayscale(100%);
+  filter: blur(3px) !important;
 }
-.my-photo:hover{
-filter: blur(0) !important;
+.my-photo:hover {
+  filter: blur(0) !important;
 }
 
-.about-me-text-part{
-    font-size: 19px;
-    min-width: 13em !important;
+.about-me-text-part {
+  font-size: 19px;
+  min-width: 13em !important;
 }

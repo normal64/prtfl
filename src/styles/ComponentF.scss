@@ -1,23 +1,20 @@
-#ComponentF{
-    // margin-top: 40em;
-    min-height: 100vh;
-    padding-top: 4%;
+#ComponentF {
+  min-height: 100vh;
+  padding-top: 4%;
 }
-.touch{
-    // position: relative;
 
-}
-.touch span{
-    position: relative;
-    display: inline-block;
-    font-size: 40px;
-    color: #fff;
-    text-transform: uppercase;
-    animation: flip 2s infinite;
-    animation-delay: calc(.2s * var(--i))
+.touch span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
 }
 @keyframes flip {
-    0%,80% {
-      transform: rotateY(360deg) 
-    }
+  0%,
+  80% {
+    transform: rotateY(360deg);
   }
+}
