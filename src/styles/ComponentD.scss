@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 #ComponentD {
   min-height: 100vh;
-
   padding-top: 12%;
 }
+
 #ComponentD {
   * {
-    font-family: "Patrick Hand SC", cursive !important;
+    // font-family: "Patrick Hand SC", cursive !important;
+    font-family: 'Cormorant Garamond', serif !important;
   }
 }
 h2 {
