@@ -1,32 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 
+
+@keyframes blink {
+  0% {
+    opacity: 0.1;
+    color: #ffffff5d;
+  }
+  25% {
+    opacity: 0.35;
+    color: #ffffff93;
+  }
+  50% {
+    opacity: 0.75;
+    color: #ffffffda;
+  }
+  100% {
+    color: #ffffff;
+
+    opacity: 1;
+    
+  }
+}
 .header-name {
   // font-family: "Patrick Hand SC", cursive !important;
   font-family: 'Cormorant Garamond', serif !important;
-  font-size: 70px !important;
+  font-size: 75px !important;
   animation: blink 4s linear infinite;
+  animation-iteration-count: 1;
   font-weight: bold !important;
-}
-@keyframes blink {
-  0% {
-    opacity: 0;
-
-    color: #c6145836;
-  }
-  25% {
-    opacity: 0.25;
-    color: #c614587e;
-  }
-  50% {
-    opacity: 0.5;
-    color: #c61458c9;
-  }
-  100% {
-    color: #c61458;
-
-    opacity: 1;
-  }
+  animation-fill-mode: forwards;
 }
 /* globals */
 *
@@ -42,7 +45,7 @@ html {
 .header-intro {
   // font-family: "Patrick Hand SC", cursive !important;
   font-family: 'Cormorant Garamond', serif !important;
-  color: #dd2d1b !important;
+  color: #fc9185a6 !important;
 }
 .header-description {
   opacity: 0.7;

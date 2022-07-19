@@ -14,7 +14,7 @@ const ComponentD = () => {
         return (
           <>
           <Header as="h2" className="job-description offer">
-            here might be your wonderful offer
+            Here might be your wonderful offer
           </Header>
           <br />
           <a className="offer-link" href = "mailto: normal64@mail.ru"> Send Mail</a>
@@ -33,7 +33,7 @@ const ComponentD = () => {
             </Header>
             <p className="job-desc-long">
               Responsible for evaluating online social media, web page content
-              and advertising content in conjunction with client policy
+              and advertising content in conjunction with client policy.
             </p>
           </>
         );
@@ -48,8 +48,8 @@ const ComponentD = () => {
               May 2014 - August 2021
             </Header>
             <p className="job-desc-long">
-              Responsible for evaluating online social media, web page content
-              and advertising content in conjunction with client policy
+              Responsible for translation of documents and on-site translation during Hydro Power plant refurbishment. After some time also received HSE 
+responsibilities. Last couple of years on the project did assistance to senior surveyor. 
             </p>
           </>
           </>
@@ -64,8 +64,7 @@ const ComponentD = () => {
               October 2013 - April 2014
             </Header>
             <p className="job-desc-long">
-              Responsible for evaluating online social media, web page content
-              and advertising content in conjunction with client policy
+            Responsible for translation of documents and on-site translation during construction and commissioning of Long Product mill.
             </p>
           </>
         );
