@@ -26,7 +26,7 @@ const ComponentD = () => {
         return (
           <>
             <Header as="h2" className="job-description">
-              Content reviewer <a className="job-link" href="https://www.majorel.com/">@Majorel</a>
+             Senior content reviewer <a className="job-link" href="https://www.majorel.com/">@Majorel</a>
             </Header>
             <Header as="h5" className="job-description">
               August 2021 - Present

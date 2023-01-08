@@ -56,6 +56,15 @@ const projects = [
     projectDescription:
       "You simply can't go too much graphic, sometimes it's nice to switch to something visual",
     techStack: "HTML CSS ",
+  },
+  {
+    github: "https://github.com/normal64/jokes-for-FUN",
+    liveURL: "https://jokes-for-fun.vercel.app/",
+    tinyHeader: "Hope you'll find some funny ones",
+    hugeHeader: "Such a joke",
+    projectDescription:
+      "Jokes generated for you",
+    techStack: "HTML CSS  API REACT NEXT",
   }
 ];
 const renderProject = (
