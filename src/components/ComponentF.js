@@ -6,9 +6,12 @@ import "../styles/ComponentF.scss";
 const ComponentF = () => {
   return (
     <Grid centered columns={2} id="ComponentF">
-      <Grid.Row centered columns={2}>
-        <Grid.Column
+      <Grid.Row centered columns={2}
+        
+      >
+        <Grid.Column 
         // width={4}
+        className="touch-container"
         >
           <Header size="huge" className="touch">
             <span style={{"--i":1}}>G</span>

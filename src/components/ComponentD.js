@@ -75,8 +75,8 @@ responsibilities. Last couple of years on the project did assistance to senior s
     <Grid columns={2} centered
     id="ComponentD"
     >
-      <Grid.Column columns={2} centered>
-        <Grid.Column floated="left">
+      <Grid.Column columns={2} centered className="floated-column">
+        <Grid.Column floated="left" >
           <Header as="h1">Work Expirience</Header>
         </Grid.Column>
         <Grid.Column>
