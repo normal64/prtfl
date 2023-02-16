@@ -13,7 +13,7 @@ const ComponentB = () => {
           <Header as="h1" className="header-name">Denis Poplavskii</Header>
           
           <Header as="h3" className="header-description">
-          I’m a motivated, curious junior(atm) front end developer. 
+          I’m a motivated, curious  front end developer. 
           Currently, focused on front end aspects in order to master it.
           </Header>
           

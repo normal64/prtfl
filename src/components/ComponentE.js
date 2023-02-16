@@ -21,7 +21,7 @@ const projects = [
       "An API based project PC games related but i haven't played this game. However characters looking nice it was fun to make and it's  fun to click around ",
     techStack: "API Semantic UI",
   },
-    {
+  {
     github: "https://github.com/normal64/ownTwitter",
     liveURL: "https://normal64.github.io/ownTwitter",
     tinyHeader: "Network clone",
@@ -62,10 +62,9 @@ const projects = [
     liveURL: "https://jokes-for-fun.vercel.app/",
     tinyHeader: "Hope you'll find some funny ones",
     hugeHeader: "Such a joke",
-    projectDescription:
-      "Jokes generated for you",
+    projectDescription: "Jokes generated for you",
     techStack: "HTML CSS  API REACT NEXT",
-  }
+  },
 ];
 const renderProject = (
   github,
@@ -76,9 +75,7 @@ const renderProject = (
   techStack
 ) => {
   return (
-    <Grid.Row centered columns={3}
-    
-    >
+    <Grid.Row centered columns={3}>
       <Grid.Column
       // width={4}
       >
@@ -118,14 +115,12 @@ const renderProjects = () => {
 };
 const ComponentE = (props) => {
   return (
-  
-      <Grid centered columns={2}
-      id="ComponentE"
-      >
-      <Header size="huge">Some projects i've done on the road to experience</Header>
-        {renderProjects()}
-      </Grid>
-    
+    <Grid centered columns={2} id="ComponentE">
+      <Header size="huge">
+        Some projects i've done on the road to experience
+      </Header>
+      {renderProjects()}
+    </Grid>
   );
 };
 

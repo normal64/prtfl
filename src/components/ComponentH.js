@@ -1,18 +1,18 @@
-import React from 'react';
+import React from "react";
 import { List } from "semantic-ui-react";
-import "../styles/ComponentH.scss"
+import "../styles/ComponentH.scss";
 
 const ComponentH = () => {
-    return (
-        
+  return (
     <div className="vertical-send-email">
-        
-            <a  className="vertical-link"  href="mailto:normal64@mail.ru">Email one</a>
-            <a  className="vertical-link"  href="mailto:normal6488@gmail.com">Email two</a>
-    
+      <a className="vertical-link" href="mailto:normal64@mail.ru">
+        Email one
+      </a>
+      <a className="vertical-link" href="mailto:normal6488@gmail.com">
+        Email two
+      </a>
     </div>
-        
-    )
-}
+  );
+};
 
-export default ComponentH
+export default ComponentH;

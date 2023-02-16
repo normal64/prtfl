@@ -23,18 +23,22 @@ const ComponentC = () => {
           // floated='left'
         >
           <p>
-          Fast-forward to today, and I’ve been working in corporation, factories, offices and this great experience built up my person.
+            Fast-forward to today, and I’ve been working in corporation,
+            factories, offices and this great experience built up my person.
           </p>
           <br />
           <p>
-          Possessing an ultimate "can do" attitude and upbeat personality helps me to grow, and my motivation is natural, which is an essential thing.
+            Possessing an ultimate "can do" attitude and upbeat personality
+            helps me to grow, and my motivation is natural, which is an
+            essential thing.
           </p>
           <p>
-          Be highly competent, responsible is my goal and I believe that add to office or company morale.
+            Be highly competent, responsible is my goal and I believe that add
+            to office or company morale.
           </p>
-          Tend to take initiative beyond expected parameters of the job. Organized and well-disciplined, whose I do consider my best pros.
+          Tend to take initiative beyond expected parameters of the job.
+          Organized and well-disciplined, whose I do consider my best pros.
           <br />
-        
           <Grid.Row columns={6} centered>
             <Grid.Column>
               <List horizontal>
